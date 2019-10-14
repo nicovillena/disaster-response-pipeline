@@ -1,10 +1,9 @@
 ## Udacity's Data Scientist Nanodegree Project: Disaster Response Pipeline
 
 ### Project Overview
+This project analyzes real messages that were sent during disaster events by build a model for an API that categorizes these events in order to send the messages to an appropriate disaster relief agency. The project combines an ETL Pipeline, Machine learning Pipeline and web application in order to clean the data, train and test a model, and display it visually.
 
-The objective of this project is to analyze real messages that were sent during disaster events by build a model for an API that categorizes these events in order to send the messages to an appropriate disaster relief agency. The data is from Figure Eight.
-
-The project combines an ETL Pipeline, Machine learning Pipeline and web application in order to clean the data, train and test a model, and display it visually.
+The data is from Figure Eight.
 
 ### Table of Contents
 
