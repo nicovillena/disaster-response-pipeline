@@ -2,17 +2,50 @@
 
 ### Project Overview
 
+The objective of this project is to analyze real messages that were sent during disaster events by build a model for an API that categorizes these events in order to send the messages to an appropriate disaster relief agency. The data is from Figure Eight.
 
+The project combines an ETL Pipeline, Machine learning Pipeline and web application in order to clean the data, train and test a model, and display it visually.
 
 ### Table of Contents
 
 1. [Libraries](#libraries)
-2. [Instructions](#instructions)
-3. [File Descriptions](#files)
-4. [Findings](#findings)
+2. [Content](#contents)
+3. [Instructions](#instructions)
+4. [File Descriptions](#files)
 
 ### Libraries: <a name="libraries"></a>
 
+    scikit-learn
+    nltk
+    Flask
+    gunicorn
+    numpy
+    pandas
+    plotly
+    sqlalchemy
+    jsonschema
+
+### Contents: <a name="contents"></a>
+
+* ETL Pipeline
+
+        Loads the messages and categories datasets.
+        Merges the two datasets.
+        Cleans the data.
+        Stores it in a SQLite database.
+
+* ML Pipeline
+
+        Loads data from the SQLite database.
+        Splits the dataset into training and test sets.
+        Builds a text processing and Machine Learning pipeline.
+        Trains and tunes a model using GridSearchCV.
+        Outputs results on the test set.
+        Exports the final model as a pickle file.
+
+* Flask Web App
+
+        It displays results in a Flask web app which is deployed on Heroku.
 
 ### Instructions: <a name="instructions"></a>
 1. Run the following commands in the project's root directory to set up the database and model.
@@ -36,7 +69,5 @@
     - models/classifier.pkl: Trained classifer, output of the Machine Learning pipeline.
     
     - app/run.py: Flask file to run the web application.
-
-### Findings: <a name="findings"></a>
 
 
