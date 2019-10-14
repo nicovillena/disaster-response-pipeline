@@ -1,6 +1,20 @@
-# Disaster Response Pipeline Project
+## Udacity's Data Scientist Nanodegree Project: Disaster Response Pipeline
 
-### Instructions:
+### Project Overview
+
+
+
+### Table of Contents
+
+1. [Libraries](#libraries)
+2. [Instructions](#instructions)
+3. [File Descriptions](#files)
+4. [Findings](#findings)
+
+### Libraries: <a name="libraries"></a>
+
+
+### Instructions: <a name="instructions"></a>
 1. Run the following commands in the project's root directory to set up the database and model.
 
     - To run ETL pipeline that cleans data and stores in database
@@ -13,7 +27,7 @@
 
 3. Go to http://0.0.0.0:3001/
 
-### Important Files:
+### File Descriptions: <a name="files"></a>
 
     - data/process_data.py: ETL pipeline used to prepare data for model building.
     
@@ -22,3 +36,7 @@
     - models/classifier.pkl: Trained classifer, output of the Machine Learning pipeline.
     
     - app/run.py: Flask file to run the web application.
+
+### Findings: <a name="findings"></a>
+
+
